@@ -36,7 +36,7 @@ void loop() {
   
   if (received==49){ // si octet reçu est 49 = 1 en ASCII
     Serial.println("Led allumee"); // on affiche led allumée dans l'HyperText
-    digitalWrite(LED,HIGH);        // on met au niveau bas la LED
+    digitalWrite(LED,HIGH);        // on met au niveau haut la LED
   }    
 
   if (received==48){ // si octet reçu est 49 = 0 en ASCII
